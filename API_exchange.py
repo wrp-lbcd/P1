@@ -13,7 +13,7 @@ headers = {
     "Authorization": API_KEY
 }
 
-target_date = date.today() - timedelta(days=3)
+target_date = date.today() - timedelta(days=5)
 
 params = {
     "start_period": target_date.strftime("%Y-%m-%d"),
